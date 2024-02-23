@@ -1,230 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Case Study of Project 1</title>
-    <meta name="description" content="Case study page of Project" />
 
-    <link rel="stylesheet" href="../css/style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Case Study of Weather App</title>
+  <meta name="description" content="Case study page of Project" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__content">
-        <div class="header__logo-container">
-          <div class="header__logo-img-cont">
-            <img
-              src="../assets/png/john-doe.png"
-              alt="Ram Maheshwari Logo Image"
-              class="header__logo-img"
-            />
-          </div>
-          <span class="header__logo-sub">Mohammad Izan Ansari</span>
+  <link rel="stylesheet" href="../css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img src="../assets/png/john-doe.png" alt="Ram Maheshwari Logo Image" class="header__logo-img" />
         </div>
-        <div class="header__main">
-          <ul class="header__links">
-            <li class="header__link-wrapper">
-              <a href="../index.html" class="header__link"> Home </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="../index.html#about" class="header__link">About </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="../index.html#projects" class="header__link">
-                Projects
-              </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="../index.html#contact" class="header__link"> Contact </a>
-            </li>
-          </ul>
-          <div class="header__main-ham-menu-cont">
-            <img
-              src="../assets/svg/ham-menu.svg"
-              alt="hamburger menu"
-              class="header__main-ham-menu"
-            />
-            <img
-              src="./assets/svg/ham-menu-close.svg"
-              alt="hamburger menu close"
-              class="header__main-ham-menu-close d-none"
-            />
+        <span class="header__logo-sub">Mohammad Izan Ansari</span>
+      </div>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="../index.html" class="header__link"> Home </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="../index.html#about" class="header__link">About </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="../index.html#projects" class="header__link">
+              Projects
+            </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="../index.html#contact" class="header__link"> Contact </a>
+          </li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="../assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none" />
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="../index.html"> Home </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="../index.html#about"> About </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="../index.html#projects"> Projects </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="../index.html#contact"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section class="project-cs-hero">
+    <div class="project-cs-hero__content">
+      <h1 class="heading-primary">Expence Tracker</h1>
+      <div class="project-cs-hero__info">
+        <p class="text-primary">
+          <strong> Created an expense tracker </strong> where a user can <strong> login, signup, </strong> add and
+              delete expenses and also can
+              <strong> download </strong> the <strong> reports of expenses. </strong>
+        </p>
+      </div>
+      <div class="project-cs-hero__cta">
+        <a href="https://expense-nirs.onrender.com/" class="btn btn--bg" target="_blank">Live Link</a>
+      </div>
+    </div>
+  </section>
+  <section class="project-details">
+    <div class="main-container">
+      <div class="project-details__content">
+        <div class="project-details__showcase-img-cont">
+          <img src="../assets/jpeg/expence 01.jpg" alt="Project Image" class="project-details__showcase-img" />
+        </div>
+        <div class="project-details__content-main">
+          <div class="project-details__desc">
+            <h3 class="project-details__content-title">Project Overview</h3>
+            <p class="project-details__desc-para">
+              Developed a robust <strong>expense tracker</strong> system that provides users with a seamless experience, featuring functionalities such as user <strong>login</strong>, <strong>signup</strong>, <strong>add</strong> and <strong>delete expenses</strong>, and the ability to <strong>download</strong> detailed <strong>expense reports</strong>. The implementation includes a user-friendly interface that facilitates efficient expense management.
+            
+              Ensured the security of user accounts through <strong>authentication</strong> using <strong>JWT tokens</strong>, enhancing the privacy and confidentiality of user data. Implemented the <strong>bcrypt</strong> library for <strong>password encryption</strong>, ensuring a secure storage mechanism for user credentials in the <strong>MongoDB database</strong>.
+            
+              Additionally, introduced a unique feature for <strong>premium users</strong> – a <strong>leaderboard list</strong> showcasing top contributors. This adds a competitive and engaging element to the expense tracking system, fostering user participation and recognition.
+            
+              The project makes use of <strong>MongoDB</strong> as the backend database, providing a scalable and efficient storage solution for expense data. This choice of database enhances the overall performance and reliability of the expense tracking system.
+            
+            </p>
+            
+            <p class="project-details__desc-para">
+              To facilitate seamless financial transactions, the system incorporates the <strong>Razorpay payment gateway</strong>, ensuring secure and efficient <strong>payment integration</strong> for users. This feature broadens the utility of the expense tracker, allowing users to manage not only their expenses but also their financial transactions effortlessly.
+            
+              Enhancing user communication and account recovery, <strong>Node mailer</strong> integration provides a convenient <strong>password reset</strong> mechanism through email links. This feature adds an extra layer of user-friendly functionality, ensuring users have a hassle-free experience in case they forget their passwords.
+            
+              In summary, the development of this comprehensive <strong>expense tracker</strong> encompasses features such as secure <strong>authentication</strong> with <strong>JWT tokens</strong>, robust <strong>password encryption</strong> using <strong>bcrypt</strong>, a dynamic <strong>leaderboard list</strong> for premium users, efficient <strong>MongoDB</strong> data storage, <strong>Razorpay payment gateway</strong> integration, and user-friendly <strong>Node mailer</strong>-based <strong>password reset</strong> functionality. This project not only empowers users in managing their expenses but also ensures a secure and feature-rich experience.
+            </p>
+            
+            
+            
+            
+          </div>
+          <div class="project-details__tools-used">
+            <h3 class="project-details__content-title">Tools Used</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">Advanced JavaScript</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">SASS</div>
+              <div class="skills__skill">GIT</div>
+              <div class="skills__skill">API</div>
+              <div class="skills__skill">Netlify</div>
+              <div class="skills__skill">Aws Server</div>
+              <div class="skills__skill">Libaries</div>
+              <div class="skills__skill">JWT Tokens</div>
+              <div class="skills__skill">NodeJs</div>
+              <div class="skills__skill">ExpressJs</div>
+              <div class="skills__skill">Authentication</div>
+              <div class="skills__skill">Razorpay</div>
+              <div class="skills__skill">OnRender</div>
+
+
+            </div>
+          </div>
+          <div class="project-details__links">
+            <h3 class="project-details__content-title">See Live</h3>
+            <a href="https://expense-nirs.onrender.com/" class="btn btn--med btn--theme project-details__links-btn" target="_blank">Live Link</a>
+            <a href="https://github.com/IzanAnsari/Expense-tracker" class="btn btn--med btn--theme-inv project-details__links-btn" target="_blank">Code Link</a>
           </div>
         </div>
       </div>
-      <div class="header__sm-menu">
-        <div class="header__sm-menu-content">
-          <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="../index.html"> Home </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="../index.html#about"> About </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="../index.html#projects"> Projects </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="../index.html#contact"> Contact </a>
-            </li>
-          </ul>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Social</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/izan-ansari-a25b27254/">
+              <img class="main-footer__icon" src="../assets/png/linkedin-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/IzanAnsari/">
+              <img class="main-footer__icon" src="../assets/png/github-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="#">
+              <img class="main-footer__icon" src="../assets/png/twitter-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="#">
+              <img class="main-footer__icon" src="../assets/png/yt-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/izaanstark7/?next=%2F">
+              <img class="main-footer__icon main-footer__icon--mr-none" src="../assets/png/insta-ico.png" alt="icon" />
+            </a>
+          </div>
         </div>
-      </div>
-    </header>
-    <section class="project-cs-hero">
-      <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Project 4</h1>
-        <div class="project-cs-hero__info">
-          <p class="text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            in numquam incidunt earum quaerat cum fuga, atque similique natus
-            nobis sit.
+        <div class="main-footer__row main-footer__row-2">
+          <h4 class="heading heading-sm text-lt">Mohammad Izan Ansari</h4>
+          <p class="main-footer__short-desc">
+            As a MERN stack developer, I specialize in creating dynamic and responsive web applications and efficient
+            user experiences.
           </p>
         </div>
-        <div class="project-cs-hero__cta">
-          <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
-        </div>
       </div>
-    </section>
-    <section class="project-details">
-      <div class="main-container">
-        <div class="project-details__content">
-          <div class="project-details__showcase-img-cont">
-            <img
-              src="../assets/jpeg/project-mockup-example.jpeg"
-              alt="Project Image"
-              class="project-details__showcase-img"
-            />
-          </div>
-          <div class="project-details__content-main">
-            <div class="project-details__desc">
-              <h3 class="project-details__content-title">Project Overview</h3>
-              <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Neque alias tenetur minus quaerat
-                aliquid, aut provident blanditiis, deleniti aspernatur ipsam
-                eaque veniam voluptatem corporis vitae mollitia laborum corrupti
-                ullam rem?
-              </p>
-              <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem?
-              </p>
-            </div>
-            <div class="project-details__tools-used">
-              <h3 class="project-details__content-title">Tools Used</h3>
-              <div class="skills">
-                <div class="skills__skill">HTML</div>
-                <div class="skills__skill">CSS</div>
-                <div class="skills__skill">JavaScript</div>
-                <div class="skills__skill">React</div>
-                <div class="skills__skill">SASS</div>
-                <div class="skills__skill">GIT</div>
-                <div class="skills__skill">Shopify</div>
-                <div class="skills__skill">Wordpress</div>
-                <div class="skills__skill">Google ADS</div>
-                <div class="skills__skill">Facebook Ads</div>
-                <div class="skills__skill">Android</div>
-                <div class="skills__skill">IOS</div>
-              </div>
-            </div>
-            <div class="project-details__links">
-              <h3 class="project-details__content-title">See Live</h3>
-              <a
-                href="#"
-                class="btn btn--med btn--theme project-details__links-btn"
-                target="_blank"
-                >Live Link</a
-              >
-              <a
-                href="#"
-                class="btn btn--med btn--theme-inv project-details__links-btn"
-                target="_blank"
-                >Code Link</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="main-footer">
-      <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
-            </h2>
-            <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="../assets/png/linkedin-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="../assets/png/github-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="../assets/png/twitter-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="../assets/png/yt-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  src="../assets/png/insta-ico.png"
-                  alt="icon"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">John Doe</h4>
-            <p class="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
-            </p>
-          </div>
-        </div>
+      
+    </div>
 
-        <div class="main-footer__lower">
-          &copy; Copyright 2021. Made by
-          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-            >Ram Maheshwari</a
-          >
-        </div>
-      </div>
-    </footer>
-    <script src="../controller/index.js"></script>
-  </body>
+    <div class="main-footer__lower">
+      &copy; Copyright 2021. Made by
+      <a rel="noreferrer" target="_blank" href="https://stunning-phoenix-180456.netlify.app/">Mohammad Izan Ansari</a>
+    </div>
+    </div>
+  </footer>
+  <script src="../controller/index.js"></script>
+</body>
+
 </html>

@@ -235,16 +235,34 @@ textarea {
 }
 
 .text-primary {
-  color: #fff;
-  font-size: 2.2rem;
-  text-align: center;
+  color: #fefefe;
+  font-size: 2.7rem;
+  text-align: left;
+  /* margin-left: 20%; */
   width: 100%;
   line-height: 1.6;
 }
 
 @media only screen and (max-width: 37.5em) {
   .text-primary {
-    font-size: 2rem;
+    font-size: 2.7rem;
+    margin-left: -1%;
+  }
+}
+
+.text-primary01 {
+  color: #fefefe;
+  font-size: 4.2rem;
+  text-align: left;
+  margin-left: 20%;
+  width: 100%;
+  line-height: 1.6;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .text-primary01 {
+    font-size: 2.7rem;
+    margin-left: -1%;
   }
 }
 
@@ -481,7 +499,7 @@ textarea {
   padding: 4rem;
   margin-top: 6rem;
   max-width: 80rem;
-  text-align: right;
+  text-align: center;
   width: 95%;
   border-radius: 5px;
   margin: 5rem auto 0 auto;
@@ -494,12 +512,12 @@ textarea {
 }
 
 .contact__form-field {
-  margin-bottom: 4rem;
+  margin-bottom: 0rem;
 }
 
 @media only screen and (max-width: 37.5em) {
   .contact__form-field {
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
   }
 }
 
@@ -571,7 +589,8 @@ textarea {
 
 .contact__btn {
   width: 30%;
-  padding: 2rem 4rem;
+  margin: 10px 10px 10px 0px;
+  padding: 2rem 2rem;
   font-size: 1.6rem;
 }
 
@@ -1055,3 +1074,5 @@ heading-primary
   color: #606060;
   margin: 30px 0px 40px 0px;
 }
+
+text-primary

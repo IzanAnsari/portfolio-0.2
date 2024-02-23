@@ -44,7 +44,7 @@ headerLogoConatiner.addEventListener('click', () => {
 let circularProgressList = document.querySelectorAll(".circular-progress");
 
 // Define different end values for each progress bar
-let endValues = [80, 60, 75, 40, 60, 59, 68, 87]; // Add more values as needed
+let endValues = [80, 75, 70, 60, 80, 85, 90, 80, 60]; // Add more values as needed
 
 // Iterate over each circular-progress element
 circularProgressList.forEach((circularProgress, index) => {
@@ -64,4 +64,46 @@ circularProgressList.forEach((circularProgress, index) => {
             clearInterval(progress);
         }
     }, speed);
+});
+
+
+const typingPhrases = [
+  "I'm FullStack Web Developer...",
+  "I'm ReactJS Developer...",
+  "I'm NodeJs Developer...",
+  "I'm ExpressJs Developer...",
+  "I'm MongoDB Developer.",
+  "I'm SQL Developer",
+];
+
+const typingElement = document.querySelector(".typing");
+let phraseIndex = 0;
+let letterIndex = 0;
+let currentPhrase = "";
+
+function type() {
+  if (letterIndex < typingPhrases[phraseIndex].length) {
+    currentPhrase += typingPhrases[phraseIndex][letterIndex];
+    typingElement.textContent = currentPhrase;
+    letterIndex++;
+    setTimeout(type, 60);
+  } else {
+    setTimeout(erase, 800);
+  }
+}
+
+function erase() {
+  if (letterIndex > 0) {
+    currentPhrase = currentPhrase.slice(0, -1);
+    typingElement.textContent = currentPhrase;
+    letterIndex--;
+    setTimeout(erase, 20);
+  } else {
+    phraseIndex = (phraseIndex + 1) % typingPhrases.length;
+    setTimeout(type, 300);
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  type(); // Call the type function to start the animation
 });

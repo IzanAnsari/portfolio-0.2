@@ -68,12 +68,11 @@ circularProgressList.forEach((circularProgress, index) => {
 
 
 const typingPhrases = [
-  "I'm FullStack Web Developer...",
+  "I'm MERN Stack Developer...",
   "I'm ReactJS Developer...",
   "I'm NodeJs Developer...",
   "I'm ExpressJs Developer...",
   "I'm MongoDB Developer.",
-  "I'm SQL Developer",
 ];
 
 const typingElement = document.querySelector(".typing");

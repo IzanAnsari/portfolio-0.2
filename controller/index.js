@@ -106,3 +106,27 @@ function erase() {
 document.addEventListener("DOMContentLoaded", function () {
   type(); // Call the type function to start the animation
 });
+
+
+
+
+function copyToClipboard(event) {
+  event.preventDefault(); // Prevent the default behavior of the button
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  document.execCommand("copy");
+  
+  var copyButton = document.getElementById("copyText");
+  copyButton.innerHTML = '<i class="fas fa-check"></i> Copied';
+  copyButton.classList.add("copied");
+
+  var button = document.getElementById("copyButton");
+  button.style.backgroundColor = "#2ecc71";  // Change to green background after copy
+  
+  // Reset button text and style after 2 seconds
+  setTimeout(function() {
+    copyButton.innerHTML = '<i class="fas fa-copy"></i> Copy Email';
+    copyButton.classList.remove("copied");
+    button.style.backgroundColor = "#3498db";  // Reset to original blue color
+  }, 2000);
+}

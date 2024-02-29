@@ -44,7 +44,7 @@ headerLogoConatiner.addEventListener('click', () => {
 let circularProgressList = document.querySelectorAll(".circular-progress");
 
 // Define different end values for each progress bar
-let endValues = [80, 75, 70, 60, 80, 85, 90, 80, 60]; // Add more values as needed
+let endValues = [80, 75, 70, 75, 80, 85, 90, 80, 70]; // Add more values as needed
 
 // Iterate over each circular-progress element
 circularProgressList.forEach((circularProgress, index) => {

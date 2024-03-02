@@ -63,6 +63,12 @@ li {
   list-style: none;
 }
 
+.img {
+  height: 80px;
+  width: 80px;
+  margin: 10px 10px;
+}
+
 input:focus,
 button:focus,
 a:focus,
@@ -180,7 +186,7 @@ textarea {
 
 .main-container {
   max-width: 120rem;
-  
+
   margin: auto;
   width: 92%;
 }
@@ -684,8 +690,8 @@ textarea {
   color: grey;
   margin-bottom: 2rem;
 }
-heading-primary
-.project-details__tools-used {
+
+heading-primary .project-details__tools-used {
   margin: 0 0 7rem 0;
 }
 
@@ -943,11 +949,13 @@ heading-primary
 .container {
   text-align: center;
 }
+
 input {
   padding: 10px;
   width: 200px;
   margin-bottom: 10px;
 }
+
 button {
   background-color: #3498db;
   color: white;
@@ -957,9 +965,11 @@ button {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
 button:hover {
   background-color: #2980b9;
 }
+
 .copied {
   color: green;
 }
@@ -1098,4 +1108,3 @@ button:hover {
   color: #606060;
   margin: 30px 0px 40px 0px;
 }
-

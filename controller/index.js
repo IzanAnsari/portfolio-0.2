@@ -38,35 +38,6 @@ headerLogoConatiner.addEventListener('click', () => {
 })
 
 
-
-/* circular bar function */
-// Get all circular-progress elements
-let circularProgressList = document.querySelectorAll(".circular-progress");
-
-// Define different end values for each progress bar
-let endValues = [80, 75, 70, 75, 80, 85, 90, 80, 70]; // Add more values as needed
-
-// Iterate over each circular-progress element
-circularProgressList.forEach((circularProgress, index) => {
-    let progressValue = circularProgress.querySelector(".progress-value");
-
-    let progressStartValue = 0,
-        progressEndValue = endValues[index], // Use different end values
-        speed = 100;
-
-    let progress = setInterval(() => {
-        progressStartValue++;
-
-        progressValue.textContent = `${progressStartValue}%`
-        circularProgress.style.background = `conic-gradient(#0062b9 ${progressStartValue * 3.6}deg, #ededed 0deg)`
-
-        if (progressStartValue == progressEndValue) {
-            clearInterval(progress);
-        }
-    }, speed);
-});
-
-
 const typingPhrases = [
   "I'm MERN Stack Developer...",
   "I'm ReactJS Developer...",
